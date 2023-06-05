@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NouJugador">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="64dp"
+        android:text="INFORMACIO NOU JUGADOR"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Nom del Jugador"/>
+
+    <EditText
+        android:id="@+id/edat"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Edat" />
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Altura en cm" />
+
+    <EditText
+        android:id="@+id/pes"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Pes" />
+
+    <EditText
+        android:id="@+id/equip"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Equip Actual" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="ENRERE" />
+        <Button
+            android:id="@+id/enviar"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="SEND" />
+    </LinearLayout>
+
+
+</LinearLayout>
